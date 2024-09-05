@@ -1,0 +1,78 @@
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic body styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar styling */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+  }
+  
+  nav.scrolled {
+    background-color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #007BFF;
+  }
+  
+  /* Change link color when scrolled */
+  nav.scrolled ul li a {
+    color: #fff;
+  }
+  
+  /* Section styling (for scroll effect) */
+  section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #f0f8ff;
+  }
+  
+  #about {
+    background-color: #ffe4e1;
+  }
+  
+  #services {
+    background-color: #e6e6fa;
+  }
+  
+  #contact {
+    background-color: #f5f5dc;
+  }
+  
